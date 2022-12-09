@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Faro";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/assets/fonts/FaroWeb-DisplayLucky.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aerotype";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("/assets/fonts/Aerotype-TurbinadoBoldDryPro.woff") format("woff");
+}
+
+body {
+  @apply bg-gradient-to-br from-green-50 via-orange-50 to-pink-100 bg-no-repeat;
+}
